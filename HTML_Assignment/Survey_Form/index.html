@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <h1> Survey Form </h1>
+    <Form>
+        <div>
+            <b>First Name: </b> <input type="text" placeholder="Enter Your First name" class="n1" required><br>
+        </div>
+        <div>
+            <b>Last Name: </b> <input type="text" placeholder="Enter Your Last name" class="n1" required><br>
+        </div>
+        <div>
+            <b>Date of Birth: </b> <input type="date" class="dob" required><br>
+        </div>
+        <div>
+            <label for="country"><b>Country: </b> </label>
+            <Select name="country" id="country" required>
+                <option value="select" selected>Select Your Country </option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Indonesia">Indinesia</option>
+                <option value="Others">Others</option>
+            </Select>
+            <br>
+        </div>
+
+        <div>
+            <b>Gender: </b> Female<input type="checkbox" class="gender" name="g1" value="1"> Male<input type="checkbox"
+                class="gender" name="g1" value="1"> Others<input type="checkbox" class="gender" name="g1" value="1"><br>
+        </div>
+        <div>
+            <b>Profession: </b> <input type="text" placeholder="Enter Your Profession" class="n1" required><br>
+        </div>
+        <div>
+            <label><b>Email Id: </b></label> <input type="email" placeholder="Enter Your Email ID" class="n1"
+                required><br>
+        </div>
+        <div>
+            <b>Mobile Number: </b> <input type="number" placeholder="Enter Your Mobile No." class="n1" required><br>
+        </div>
+
+        <button class="button" onclick="submit()"> SUBMIT </button>
+
+        <input type="reset" value="RESET" class="reset">
+
+
+    </Form>
+</body>
+<script src="script.js"></script>
+
+</html>

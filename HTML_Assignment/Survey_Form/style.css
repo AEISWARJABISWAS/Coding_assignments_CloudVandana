@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+form{
+    padding: 30px;
+}
+
+div{
+font-size: 20px;
+}
+
+.n1{
+    font-size: 20px;
+    margin: 15px;
+}
+
+.dob{
+    font-size: 20px;
+    margin: 15px;
+}
+
+#country{
+    font-size: 20px;
+    margin: 15px;
+}
+
+.gender{
+    font-size: 20px;
+    margin: 15px;
+}
+
+button{
+    height:40px;
+    width: 100px;
+    font-size: 15px;
+    margin: 25px;
+    font-weight: bold;
+    align-items: center;
+}
+button:hover{
+background-color: black;
+color: white;
+}
+
+.reset{
+    height:40px;
+    width: 100px;
+    font-size: 15px;
+    margin: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+.reset:hover{
+    background-color: black;
+    color: white;
+    }
+
+    
